@@ -30,3 +30,6 @@ java -cp "java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.Con
  2. 先运行ByteCodeEncryptorTest (有时候一次有错，在运行一次就好了，除非是真的有错)
  
  3. 运行JarEncryptorTest生成加密之后的jar，会放在和需要加密的jar同级目录
+ 
+ 4. 解密.class，运行项目，命令如下
+  java -agentpath:hello.dll -cp a.jar com.data.demo.DemoApplicationgc
