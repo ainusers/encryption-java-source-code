@@ -32,4 +32,4 @@ java -cp "java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.Con
  3. 运行JarEncryptorTest生成加密之后的jar，会放在和需要加密的jar同级目录
  
  4. 解密.class，运行项目，命令如下
-  java -agentpath:hello.dll -cp a.jar com.data.demo.DemoApplicationgc
+  java -agentpath:hello.dll -cp a.jar com.data.demo.DemoApplicationg cc
