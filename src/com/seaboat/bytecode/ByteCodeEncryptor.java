@@ -7,7 +7,7 @@ package com.seaboat.bytecode;
  */
 public class ByteCodeEncryptor {
   static{
-    System.load("C:\\Users\\Administrator\\Desktop\\test\\hello.dll");
+    System.load("C:\\Users\\Administrator\\Desktop\\hello.dll");
   }
   
   public native static byte[] encrypt(byte[] text);

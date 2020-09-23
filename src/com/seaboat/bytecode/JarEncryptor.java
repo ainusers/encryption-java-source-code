@@ -34,7 +34,7 @@ public class JarEncryptor {
           }
           byte[] bytes = baos.toByteArray();
           String name = entry.getName();
-          if(name.startsWith("com/data/demo/controller") && name.endsWith(".class")){
+          if(name.startsWith("com/data/demo/controller/") && name.endsWith(".class")){
               System.out.println("加密的类：" + name);
               try {
                   bytes = ByteCodeEncryptor.encrypt(bytes);

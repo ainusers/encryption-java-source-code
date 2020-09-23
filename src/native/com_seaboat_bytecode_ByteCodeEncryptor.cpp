@@ -57,7 +57,7 @@ void JNICALL ClassDecryptHook(
 
 	unsigned char* _data = *new_class_data;
 
-	if (name&&strncmp(name, "com/data/demo/controller", 24) == 0) {
+	if (name&&strncmp(name, "com/data/demo/controller/", 24) == 0) {
 		for (int i = 0; i < class_data_len; i++)
 		{
 			_data[i] = class_data[i];
