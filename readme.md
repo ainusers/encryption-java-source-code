@@ -33,3 +33,6 @@ java -cp "java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.Con
  
  4. 解密.class，运行项目，命令如下
   java -agentpath:hello.dll -cp a.jar com.data.demo.DemoApplicationg cc
+  
+  <h2>5. 实战</h2>
+  https://blog.csdn.net/AinUser/article/details/108753221
