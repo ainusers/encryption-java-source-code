@@ -25,7 +25,7 @@ java -cp "java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.Con
 4. 如果是springboot项目做测试，需要自定义打包路径，默认的打包，文件会搜不到
  
  <h2>4. 步骤</h2>
-   1. 前提是，需要的dll文件，需要的加密的jar包都已准备好
+  1. 前提是，需要的dll文件，需要的加密的jar包都已准备好
  
  2. 先运行ByteCodeEncryptorTest (有时候一次有错，在运行一次就好了，除非是真的有错)
  
