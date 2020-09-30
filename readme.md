@@ -22,7 +22,7 @@ java -cp "java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.Con
 3. 如果报错信息如下(魔数不对)，说明，加解密路径不一致
  Incompatible magic value 3338319546 in class file
  
- 4. 如果是springboot项目做测试，需要自定义打包路径，默认的打包，文件会搜不到
+4. 如果是springboot项目做测试，需要自定义打包路径，默认的打包，文件会搜不到
  
  <h2>4. 步骤</h2>
  1. 前提是，需要的dll文件，需要的加密的jar包都已准备好
